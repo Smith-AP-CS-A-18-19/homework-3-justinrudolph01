@@ -1,5 +1,5 @@
 /*
- * First and Last Names
+ * Justin Rudolph
  */
 
 public class Homework3 {
@@ -17,12 +17,14 @@ public class Homework3 {
 	 * class (e.g. Math.random())
 	 */
 	public void grade() {
-
+Homework3.grade(this);
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
+		int sum = value1 + value2 + value3;
+		return sum;
 
 	}
 
@@ -30,21 +32,24 @@ public class Homework3 {
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
-
+		double average = (value1 + value2 + value3) / 3;
+		return average;
 	}
 
 	/* Calculate and return the difference between the product and sum of
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
-
+		 int productSumDifference = (value1 * value2 * value3) - (value1 + value2 + value3);
+		 return productSumDifference;
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
 	  public int sumSquares() {
-
+			int sumSquares = (value1 * value1) + (value2 * value2) + (value3 * value3);
+			return sumSquares;
 	  }
 
 	  /* Tests to verify that your solutions work
